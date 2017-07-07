@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="style/style.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.5.min.js"></script>
+	<script type="text/javascript" src="js/settings.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+
+	<title>Welcome to ArchLabs</title>
+
+<style type="text/css">
+body {
+    background: url(images/1498887590634.jpg) repeat;
+}
+</style>
+</head>
+<body>
+<abruzzi>
+
+
+ArchLabs Official
+https://archlabsblog.wordpress.com || ArchLabs Online
+https://github.com/ARCHLabs || ArchLabs Github
+https://archlabsblog.wordpress.com/category/blog/ || ArchLabs News
+
+
+Social
+http://archlabs.prophpbb.com || ArchLabs Forums
+https://plus.google.com/communities/111177505820810068511 || ArchLabs Google+
+https://www.facebook.com/groups/archlabs﻿ || ArchLabs Facebook
+https://www.reddit.com/r/ArchLabsLinux/ || ArchLabs Reddit
+https://twitter.com/ArchLabsLinux﻿ || ArchLab Titter
+
+
+Openbox
+https://wiki.archlinux.org/index.php/openbox || archwiki
+https://urukrama.wordpress.com/openbox-guide/ || openbox.guide
+http://openbox.org/wiki/Help:Getting_started || openbox overview
+
+Customization
+https://www.box-look.org/browse/cat/140/ord/latest/ || box-look.org
+https://www.reddit.com/r/unixporn/  || r/unixporn
+https://terminal.sexy || terminal.sexy
+http://www.deviantart.com/customization/skins/linuxutil/winmanagers/openbox/newest/ || deviantart
+http://openbox.org/download-themes.php || openbox.themes
+http://customize.org/openbox || customize.org
+http://erikdubois.be/tag/openbox || Openbox @ Erik Dubious
+
+
+
+
+
+</abruzzi>
+
+
+
+
+
+<div id="date">
+<script type="text/javascript">
+
+function makeArray() {
+for (i = 0; i<makeArray.arguments.length; i++)
+this[i + 1] = makeArray.arguments[i];
+}
+
+var months = new makeArray('January','February','March','April','May',
+'June','July','August','September','October','November','December');
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var yy = date.getYear();
+var year = (yy < 1000) ? yy + 1900 : yy;
+
+document.write(day + " " + months[month] + " " + year);
+
+</script>
+</div>
+
+<script type="text/javascript">
+
+    $(window).load(function() {
+        $('#slider').nivoSlider({ borderRadius: 5 });
+    });
+</script>
+<script type="text/javascript">
+$('body').hide();
+$('body').fadeIn(2000);
+</script>
+
+
+<script type="text/javascript">
+	if(showDate) {
+
+		$('body').append('<div id="date"></div>');
+
+
+   	setInterval('makeArray()',);
+	}
+</script>
+
+</body>
+</html>
